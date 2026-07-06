@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="WarehouseVision-AI/assets/images/banner.png" width="100%">
+  <img src="/assets/images/banner.png" width="100%">
 </p>
 
 <h1 align="center">🏭 WarehouseVision-AI</h1>
