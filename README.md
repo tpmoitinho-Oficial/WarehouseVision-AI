@@ -2,7 +2,7 @@
   <img src="WarehouseVision-AI/assets/images/banner.png" width="100%">
 </p>
 
-<h1 align="center">🏭 PWarehouseVision-AI</h1>
+<h1 align="center">🏭 WarehouseVision-AI</h1>
 
 <p align="center">
 
@@ -16,7 +16,7 @@ YOLOv8 • Qwen-VL • MLOps • FastAPI • Docker • Kubernetes
 
 # 🚀 Overview
 
-PWarehouseVision-AI is an enterprise-grade Computer Vision platform for warehouse and food distribution centers.
+WarehouseVision-AI is an enterprise-grade Computer Vision platform for warehouse and food distribution centers.
 
 The project combines real-time object detection, semantic validation using Vision Language Models, continuous monitoring, automatic retraining and complete MLOps.
 
