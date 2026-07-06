@@ -1,14 +1,14 @@
 <p align="center">
+  <img src="WarehouseVision-AI/assets/images/banner.png" width="100%">
+</p>
 
-# 🏭 PWarehouseVision-AI
+<h1 align="center">🏭 PWarehouseVision-AI</h1>
 
-### Enterprise Computer Vision Pipeline for Warehouse Management
+<p align="center">
 
-**YOLOv8 • Qwen-VL • MLOps • FastAPI • Docker • Kubernetes**
+Enterprise Computer Vision Pipeline for Warehouse Management
 
----
-
-Intelligent Computer Vision Pipeline for Warehouse Management using **YOLOv8**, **Qwen-VL**, **MLOps**, **Continuous Learning** and **Semantic Validation**.
+YOLOv8 • Qwen-VL • MLOps • FastAPI • Docker • Kubernetes
 
 </p>
 
@@ -16,42 +16,69 @@ Intelligent Computer Vision Pipeline for Warehouse Management using **YOLOv8**, 
 
 # 🚀 Overview
 
-PWarehouseVision-AI is an enterprise-grade computer vision platform designed for warehouse and food distribution center monitoring.
+PWarehouseVision-AI is an enterprise-grade Computer Vision platform for warehouse and food distribution centers.
 
-The project combines:
+The project combines real-time object detection, semantic validation using Vision Language Models, continuous monitoring, automatic retraining and complete MLOps.
 
-- YOLOv8 Real-Time Object Detection
-- Qwen-VL Semantic Validation
+---
+
+# ✨ Features
+
+- Real-time Object Detection
+- Semantic Validation using Qwen-VL
 - Continuous Learning
-- MLOps Pipeline
 - Automatic Retraining
 - Drift Detection
-- Grafana Monitoring
-- Prometheus Metrics
+- Enterprise MLOps
 - FastAPI REST API
+- Docker Deployment
+- Kubernetes Ready
+- Grafana Dashboard
+- Prometheus Monitoring
 
 ---
 
-# 🧠 Architecture
+# 🏗 Architecture
 
-Coming soon...
+```text
+Camera
+     │
+     ▼
+YOLOv8
+     │
+Bounding Boxes
+     │
+     ▼
+Qwen-VL
+Semantic Validation
+     │
+     ▼
+Decision Engine
+     │
+ ┌──────────────┐
+ │ Alerts       │
+ │ Dashboard    │
+ │ Database     │
+ └──────────────┘
+```
 
 ---
 
-# ⚙️ Technologies
+# 🛠 Technology Stack
 
-- Python
-- PyTorch
-- YOLOv8
-- Transformers
-- Qwen-VL
-- FastAPI
-- PostgreSQL
-- Docker
-- Kubernetes
-- MLflow
-- Grafana
-- Prometheus
+| Area | Technology |
+|------|------------|
+| Language | Python |
+| AI Framework | PyTorch |
+| Detection | YOLOv8 |
+| Vision LLM | Qwen-VL |
+| API | FastAPI |
+| Monitoring | Prometheus |
+| Dashboard | Grafana |
+| Database | PostgreSQL |
+| Container | Docker |
+| Orchestration | Kubernetes |
+| MLOps | MLflow |
 
 ---
 
@@ -62,23 +89,47 @@ src/
 models/
 datasets/
 training/
-mlops/
 monitoring/
-api/
-docker/
+mlops/
 deployment/
-docs/
+docker/
+api/
+configs/
 tests/
+docs/
+assets/
 ```
 
 ---
 
-# 📈 Status
+# 📊 Status
 
-🚧 Under Development
+🟢 Active Development
+
+---
+
+# 📈 Roadmap
+
+- [x] Pipeline Architecture
+- [x] YOLOv8 Detection
+- [x] Qwen-VL Validation
+- [ ] Model Training
+- [ ] MLOps Integration
+- [ ] Production Deployment
+- [ ] Dashboard
+- [ ] CI/CD
+- [ ] Kubernetes Deployment
 
 ---
 
 # 📜 License
 
-Apache 2.0
+Apache License 2.0
+
+---
+
+<p align="center">
+
+Made with ❤️ by **Thiago Passaline**
+
+</p>
