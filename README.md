@@ -6,83 +6,87 @@
 
 <p align="center">
 
-Enterprise Computer Vision Pipeline for Warehouse Management
+### Plataforma Enterprise de Visão Computacional para Gestão Inteligente de Armazéns
 
-YOLOv8 • Qwen-VL • MLOps • FastAPI • Docker • Kubernetes
+**YOLOv8 • Qwen-VL • MLOps • FastAPI • Docker • Kubernetes**
 
 </p>
 
 ---
 
-# 🚀 Overview
+# 🚀 Visão Geral
 
-WarehouseVision-AI is an enterprise-grade Computer Vision platform for warehouse and food distribution centers.
+O **WarehouseVision-AI** é uma plataforma corporativa de **Visão Computacional** desenvolvida para automatizar a inspeção, monitoramento e gestão de armazéns, centros de distribuição e operações logísticas.
 
-The project combines real-time object detection, semantic validation using Vision Language Models, continuous monitoring, automatic retraining and complete MLOps.
+O projeto integra **Detecção de Objetos em Tempo Real**, **Modelos de Linguagem para Visão (Vision Language Models)**, **MLOps**, monitoramento contínuo, retreinamento automático dos modelos e infraestrutura preparada para ambientes de produção.
 
----
-
-# ✨ Features
-
-- Real-time Object Detection
-- Semantic Validation using Qwen-VL
-- Continuous Learning
-- Automatic Retraining
-- Drift Detection
-- Enterprise MLOps
-- FastAPI REST API
-- Docker Deployment
-- Kubernetes Ready
-- Grafana Dashboard
-- Prometheus Monitoring
+Seu objetivo é aumentar a eficiência operacional, reduzir erros humanos e fornecer inteligência baseada em Inteligência Artificial para processos logísticos.
 
 ---
 
-# 🏗 Architecture
+# ✨ Principais Funcionalidades
+
+- ✅ Detecção de Objetos em Tempo Real
+- ✅ Validação Semântica utilizando Qwen-VL
+- ✅ Aprendizado Contínuo (Continuous Learning)
+- ✅ Retreinamento Automático dos Modelos
+- ✅ Detecção de Drift dos Modelos
+- ✅ Pipeline Enterprise de MLOps
+- ✅ API REST desenvolvida com FastAPI
+- ✅ Implantação utilizando Docker
+- ✅ Compatível com Kubernetes
+- ✅ Dashboard em Grafana
+- ✅ Monitoramento com Prometheus
+
+---
+
+# 🏗 Arquitetura
 
 ```text
-Camera
-     │
-     ▼
+Câmera
+    │
+    ▼
 YOLOv8
-     │
+Detecção de Objetos
+    │
 Bounding Boxes
-     │
-     ▼
+    │
+    ▼
 Qwen-VL
-Semantic Validation
-     │
-     ▼
-Decision Engine
-     │
- ┌──────────────┐
- │ Alerts       │
- │ Dashboard    │
- │ Database     │
- └──────────────┘
+Validação Semântica
+    │
+    ▼
+Motor de Decisão
+    │
+ ┌───────────────────────┐
+ │ Alertas               │
+ │ Dashboard             │
+ │ Banco de Dados        │
+ │ Relatórios            │
+ └───────────────────────┘
 ```
 
 ---
 
-# 🛠 Technology Stack
+# 🛠 Tecnologias Utilizadas
 
-| Area | Technology |
+| Área | Tecnologia |
 |------|------------|
-| Language | Python |
-| AI Framework | PyTorch |
-| Detection | YOLOv8 |
-| Vision LLM | Qwen-VL |
+| Linguagem | Python |
+| Framework de IA | PyTorch |
+| Detecção de Objetos | YOLOv8 |
+| Modelo Vision-Language | Qwen-VL |
 | API | FastAPI |
-| Monitoring | Prometheus |
+| Monitoramento | Prometheus |
 | Dashboard | Grafana |
-| Database | PostgreSQL |
-| Container | Docker |
-| Orchestration | Kubernetes |
+| Banco de Dados | PostgreSQL |
+| Contêineres | Docker |
+| Orquestração | Kubernetes |
 | MLOps | MLflow |
 
 ---
 
-# 📂 Project Structure
+# 📂 Estrutura do Projeto
 
 ```text
 src/
@@ -102,34 +106,49 @@ assets/
 
 ---
 
-# 📊 Status
+# 📊 Status do Projeto
 
-🟢 Active Development
+🟢 **Em Desenvolvimento Ativo**
 
 ---
 
 # 📈 Roadmap
 
-- [x] Pipeline Architecture
-- [x] YOLOv8 Detection
-- [x] Qwen-VL Validation
-- [ ] Model Training
-- [ ] MLOps Integration
-- [ ] Production Deployment
-- [ ] Dashboard
-- [ ] CI/CD
-- [ ] Kubernetes Deployment
+- [x] Arquitetura da Plataforma
+- [x] Pipeline de Processamento
+- [x] Integração com YOLOv8
+- [x] Integração com Qwen-VL
+- [ ] Treinamento dos Modelos
+- [ ] Pipeline Completo de MLOps
+- [ ] Implantação em Produção
+- [ ] Dashboard de Monitoramento
+- [ ] Integração Contínua (CI/CD)
+- [ ] Implantação em Kubernetes
 
 ---
 
-# 📜 License
+# 🎯 Objetivos do Projeto
 
-Apache License 2.0
+- Automatizar a inspeção de produtos em armazéns.
+- Reduzir erros operacionais utilizando Inteligência Artificial.
+- Detectar inconsistências em tempo real.
+- Validar semanticamente objetos utilizando Vision Language Models.
+- Disponibilizar APIs para integração com sistemas corporativos (ERP/WMS).
+- Facilitar a implantação em ambientes Enterprise utilizando Docker e Kubernetes.
+- Implementar monitoramento completo da infraestrutura e dos modelos de IA.
+
+---
+
+# 📜 Licença
+
+Este projeto está licenciado sob a **Apache License 2.0**.
 
 ---
 
 <p align="center">
 
-Made with ❤️ by **Thiago Passaline**
+**Desenvolvido com ❤️ por Thiago Passaline**
+
+*Cientista de Dados • Inteligência Artificial • Visão Computacional • MLOps*
 
 </p>
